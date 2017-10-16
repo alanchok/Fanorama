@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
 import Isvg from 'react-inlinesvg';
-import './App.css';
+import './Home.css';
 import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
 import SimpleSlider from '../components/SimpleSlider/SimpleSlider';
@@ -14,10 +14,10 @@ import IconStep1 from '../components/Icons/icon-step1.svg';
 import IconStep2 from '../components/Icons/icon-step2.svg';
 import IconStep3 from '../components/Icons/icon-step3.svg';
 
-class App extends Component {
+class Home extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="home">
                 <Header />
                 <Hero title='Show your game Face' />
                 <Checkin />
@@ -38,7 +38,7 @@ class App extends Component {
                     </div>
                 ]} />
                 <div className='our-product'>
-                    <div className='hero-copy'>
+                    <div className='hero-copy inverse'>
                         <h2>Our Product</h2>
                         <hr />
                         <h3>A fan engagement platform</h3>
@@ -91,4 +91,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;

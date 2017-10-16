@@ -1,0 +1,33 @@
+.product-login {
+    background: transparent url('/img/our-product-login.jpg') top right no-repeat;
+    height: 823px;
+    margin: 60px 0 0 0;
+}
+
+.product-login .col-12 {
+    padding-top: 120px;
+}
+
+
+.product-login .col-12 hr {
+    margin-left: 2%;
+    width: 18%;
+}
+
+.product-checkin {
+    background: transparent url('/img/our-product-checkin.jpg') top center no-repeat;
+    height: 771px;
+}
+
+.our-product .hero-copy.inverse {
+    padding: 13% 10% 0 0;
+}
+
+.our-product .slider .hero-copy h3 {
+    font-size: 26px;
+    margin: 70px 0 20px 0;
+}
+
+.our-product footer {
+    margin-top: 0;
+}

@@ -4,6 +4,14 @@
     background-size: auto;
 }
 
+.hero.secondary {
+    height: 436px;
+}
+
+.hero.our-product {
+    background: transparent url('/img/hero-our-product.jpg') top center no-repeat;
+}
+
 .hero h1 {
     color: #fff;
     font-family: 'Oswald', sans-serif;
@@ -13,6 +21,11 @@
     display: block;
     line-height: 1em;
     padding: 5% 0 0 20%;
+}
+
+.hero.secondary h1 {
+    width: 100%;
+    padding: 160px 0 0 10%;
 }
 
 @media only screen and (max-device-width : 544px) {
@@ -30,6 +43,10 @@
 @media only screen and (min-device-width : 544px) and (max-device-width : 768px) {
     .hero h1 {
         font-size: 5em;
+    }
+
+    .hero.secondary h1 {
+        padding-top: 200px;
     }
 }
 

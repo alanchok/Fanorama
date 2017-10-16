@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Isvg from 'react-inlinesvg';
+import { Link } from 'react-router-dom';
 import IconFacebook from '../Icons/icon-facebook.svg';
 import IconTwitter from '../Icons/icon-twitter.svg';
 import IconInstagram from '../Icons/icon-instagram.svg';
@@ -31,18 +32,20 @@ const Header = () => (
         </div>
         <div className='row nav'>
             <div className='col-3'>
-                <Isvg src={Logo} className='logo' />
+                <Link to="/">
+                    <Isvg src={Logo} className='logo' />
+                </Link>
             </div>
             <div className='col-9 text-right menu'>
                 <ul className='list-inline'>
                     <li className='list-inline-item'>
-                        <a href='#'>Our Product</a>
+                        <Link to='/our-product'>Our Product</Link>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='#'>Contact Us</a>
+                        <Link to='/contact-us'>Contact Us</Link>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='#' className='btn btn-primary'>Log In</a>
+                        <Link to='/contact-us/login' className='btn btn-primary'>Log In</Link>
                     </li>
                 </ul>
             </div>

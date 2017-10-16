@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 
 const Hero = (props) => (
-    <div className='hero'>
+    <div className={['hero'].concat(typeof (props.className) === 'undefined' ? [] : props.className).join(' ')}>
         <h1>{props.title}</h1>
     </div>
 );
