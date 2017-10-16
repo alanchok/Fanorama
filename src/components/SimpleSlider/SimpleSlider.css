@@ -1,0 +1,28 @@
+.slider {
+    text-align: center;
+    width: 100%;
+    padding: 70px;
+}
+
+.slider .hero-copy h2 {
+    color: #000;
+}
+
+.slider .hero-copy h3 {
+    color: #c22c08;
+}
+
+.slider .hero-copy h4 {
+    color: #000000;
+}
+
+.slider .hero-copy p {
+    padding: 0 15% 110px 15%;
+}
+
+@media only screen and (max-device-width : 544px) {
+    .slider .hero-copy p {
+        font-size: 14px;
+        padding: 0;
+    }
+}

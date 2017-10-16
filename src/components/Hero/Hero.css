@@ -1,0 +1,53 @@
+.hero {
+    background: transparent url('/img/hero-home.jpg') top center no-repeat;
+    height: calc(100vh - 129px - 54px - 70px);
+    background-size: auto;
+}
+
+.hero h1 {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 60px;
+    display: block;
+    line-height: 1em;
+    padding: 5% 0 0 20%;
+}
+
+@media only screen and (max-device-width : 544px) {
+    .hero {
+        height: 300px;
+        background-size: auto 100%;
+    }
+
+    .hero h1 {
+        font-size: 3.5em;
+        padding: 5% 0 0 5%;
+    }
+}
+
+@media only screen and (min-device-width : 544px) and (max-device-width : 768px) {
+    .hero h1 {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px) {
+    .hero h1 {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) {
+    .hero h1 {
+        font-size: 5em;
+    }
+}
+
+
+@media only screen and (min-device-width : 1200px) {
+    .hero h1 {
+        font-size: 6em;
+    }
+}

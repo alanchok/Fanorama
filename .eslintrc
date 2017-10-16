@@ -1,0 +1,7 @@
+{
+    "extends": "react-app",
+    "globals": {
+        "Promise": true,
+        "jQuery": true
+    }
+}
