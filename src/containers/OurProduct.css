@@ -19,15 +19,41 @@
     height: 771px;
 }
 
-.our-product .hero-copy.inverse {
+.our-product-page .hero-copy.inverse {
     padding: 13% 10% 0 0;
 }
 
-.our-product .slider .hero-copy h3 {
+.our-product-page .slider .hero-copy h3 {
     font-size: 26px;
     margin: 70px 0 20px 0;
 }
 
-.our-product footer {
+.our-product-page footer {
     margin-top: 0;
+}
+
+
+@media only screen and (max-device-width : 544px) {
+    .product-login {
+        background: none;
+        margin: 0;
+        height: auto;
+    }
+
+    .product-login .col-12 {
+        padding: 40px 0 20px 0;
+    }
+
+    .product-checkin {
+        background-position: center right;
+        height: auto;
+    }
+
+    .our-product-page .hero-copy.inverse {
+        padding: 40px 15px;
+    }
+
+    .our-product-page .slider .hero-copy h3 {
+        margin: 0;
+    }
 }

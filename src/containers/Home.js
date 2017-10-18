@@ -15,9 +15,13 @@ import IconStep2 from '../components/Icons/icon-step2.svg';
 import IconStep3 from '../components/Icons/icon-step3.svg';
 
 class Home extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
-            <div className="home">
+            <div className="home-page">
                 <Header />
                 <Hero title='Show your game Face' />
                 <Checkin />

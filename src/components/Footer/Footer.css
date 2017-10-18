@@ -40,4 +40,8 @@ footer hr {
     footer .logo svg {
         max-width: 120px;
     }
+
+    footer hr {
+        margin: 20px 0
+    }
 }

@@ -1,15 +1,12 @@
 .hero {
-    background: transparent url('/img/hero-home.jpg') top center no-repeat;
+    background: transparent url('/img/hero-primary.jpg') top center no-repeat;
     height: calc(100vh - 129px - 54px - 70px);
     background-size: auto;
 }
 
 .hero.secondary {
     height: 436px;
-}
-
-.hero.our-product {
-    background: transparent url('/img/hero-our-product.jpg') top center no-repeat;
+    background: transparent url('/img/hero-secondary.jpg') top center no-repeat;
 }
 
 .hero h1 {
@@ -37,6 +34,15 @@
     .hero h1 {
         font-size: 3.5em;
         padding: 5% 0 0 5%;
+    }
+
+    .hero.secondary {
+        height: 320px;
+        background-position: center left;
+    }
+
+    .hero.secondary h1 {
+        padding-top: 140px;
     }
 }
 

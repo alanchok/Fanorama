@@ -5,13 +5,15 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './containers/Home';
 import OurProduct from './containers/OurProduct';
-import NotFound from './containers/NotFound';
+import ContactUs from './containers/ContactUs';
 
 ReactDOM.render(<BrowserRouter>
         <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/our-product' component={OurProduct} />
-            <Route path='*' component={NotFound} />
+            <Route exact path='/contact-us' component={ContactUs} />
+            <Route exact path='/contact-us/:action' component={ContactUs} />
+            <Route path='*' component={ContactUs} />
         </Switch>
     </BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();

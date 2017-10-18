@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import Isvg from 'react-inlinesvg';
 import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
 import SimpleSlider from '../components/SimpleSlider/SimpleSlider';
-import ExperienceAccordion from '../components/ExperienceAccordion/ExperienceAccordion';
 import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footer/Footer';
 import './OurProduct.css';
 
 class OurProduct extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+
     render() {
+        console.log(this.props.params);
         return (
-            <div className="our-product">
+            <div className="our-product-page">
                 <Header />
                 <Hero
                     title='Our Product'
-                    className={['our-product', 'secondary']}
+                    className={['secondary']}
                 />
                 <Checkin />
                 <div className='container'>

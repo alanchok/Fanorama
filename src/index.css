@@ -11,7 +11,7 @@ a, a:hover {
     color: #c22c08;
 }
 
-a.btn-primary {
+.btn-primary {
     background-color: #c22c08;
     color: #fff;
     border-color: #c22c08;
@@ -19,7 +19,7 @@ a.btn-primary {
     border-radius: 0;
 }
 
-a.btn-primary:hover {
+.btn-primary:hover {
     background-color: #940800;
     color: #fff;
     border-color: #940800;
