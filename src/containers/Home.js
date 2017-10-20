@@ -55,7 +55,7 @@ class Home extends Component {
                             </li>
                         </ul>
                     </div>
-                    <img src='/img/hand.png' className='hand' />
+                    <img src='/img/hand.png' className='hand' alt={'Hand'} />
                 </div>
                 <div className='steps container-fluid'>
                     <div className='row'>

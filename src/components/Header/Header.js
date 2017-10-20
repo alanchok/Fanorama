@@ -13,17 +13,17 @@ const Header = () => (
             <div className='col text-right'>
                 <ul className='list-inline'>
                     <li className='list-inline-item'>
-                        <a href='http://www.facebook.com' target='_blank'>
+                        <a href='http://www.facebook.com' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconFacebook} />
                         </a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='http://www.twitter.com' target='_blank'>
+                        <a href='http://www.twitter.com' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconTwitter} />
                         </a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='http://www.instagram.com' target='_blank'>
+                        <a href='http://www.instagram.com' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconInstagram} />
                         </a>
                     </li>

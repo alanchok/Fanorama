@@ -28,7 +28,9 @@ class ContactUs extends Component {
     }
 
     handleChange(event) {
-        this.state[event.target.name] = event.target.value;
+        const state = {...this.state};
+        state[event.target.name] = event.target.value;
+        this.setState(state);
     }
 
     handleSubmit(event) {
