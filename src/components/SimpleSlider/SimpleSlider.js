@@ -3,8 +3,7 @@ import Slider from 'react-slick';
 import Isvg from 'react-inlinesvg';
 import IconChevronLeft from '../Icons/icon-chevron-left.svg';
 import IconChevronRight from '../Icons/icon-chevron-right.svg';
-import './slick.css';
-import './slick-theme.css';
+import './Slick.css';
 import './SimpleSlider.css';
 
 function NextArrow(props) {
