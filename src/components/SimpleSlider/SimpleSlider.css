@@ -1,28 +1,20 @@
 .slider {
-    text-align: center;
-    width: 100%;
-    padding: 70px;
-}
+  text-align: center;
+  width: 100%;
+  padding: 70px; }
 
 .slider .hero-copy h2 {
-    color: #000;
-}
+  color: #000; }
 
 .slider .hero-copy h3 {
-    color: #c22c08;
-}
+  color: #c22c08; }
 
 .slider .hero-copy h4 {
-    color: #000000;
-}
+  color: #000000; }
 
 .slider .hero-copy p {
-    padding: 0 15% 110px 15%;
-}
-
-@media only screen and (max-device-width : 544px) {
+  font-size: 0.875rem;
+  padding: 0; }
+  @media (min-width: 992px) {
     .slider .hero-copy p {
-        font-size: 14px;
-        padding: 0;
-    }
-}
+      padding: 0 15% 110px 15%; } }

@@ -1,0 +1,29 @@
+@import '../../_variables.scss';
+@import '../../_breakpoints.scss';
+
+.slider {
+    text-align: center;
+    width: 100%;
+    padding: 70px;
+}
+
+.slider .hero-copy h2 {
+    color: #000;
+}
+
+.slider .hero-copy h3 {
+    color: #c22c08;
+}
+
+.slider .hero-copy h4 {
+    color: #000000;
+}
+
+.slider .hero-copy p {
+    font-size: $font-size-sm;
+    padding: 0;
+
+    @include media-breakpoint-up(lg) {
+        padding: 0 15% 110px 15%;
+    }
+}

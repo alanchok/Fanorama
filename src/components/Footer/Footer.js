@@ -8,10 +8,10 @@ const Footer = () => (
     <footer>
         <div className='container'>
             <div className='row'>
-                <div className='col-12 col-md-8'>
+                <div className='col-12 col-md-6 col-lg-8'>
                     <Isvg src={Logo} className='logo' />
                 </div>
-                <div className='col-6 col-md-2'>
+                <div className='col-6 col-md-3 col-lg-2'>
                     <p><strong>FANORAMA</strong></p>
                     <p>
                         <Link to={'/'}>Home</Link><br />
@@ -19,7 +19,7 @@ const Footer = () => (
                         <Link to={'/contact-us'}>Contact Us</Link>
                     </p>
                 </div>
-                <div className='col-6 col-md-2'>
+                <div className='col-6 col-md-3 col-lg-2'>
                     <p><strong>CONTACT</strong></p>
                     <p>
                         12345 Fan Street<br />

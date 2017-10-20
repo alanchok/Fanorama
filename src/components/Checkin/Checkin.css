@@ -1,35 +1,29 @@
 .checkin {
-    padding: 15px;
-    width: 100%;
-    display: block;
-    color: #fff;
-}
+  padding: 15px;
+  width: 100%;
+  display: block;
+  color: #fff; }
 
 .checkin:hover {
-    color: #fff;
-}
+  color: #fff; }
 
 .checkin svg {
-    max-width: 41px;
-    max-height: 40px;
-    display: inline-block;
-}
+  max-width: 41px;
+  max-height: 40px;
+  display: inline-block; }
 
 .checkin svg path {
-    fill: #fff;
-}
+  fill: #fff; }
 
 .checkin span {
-    display: inline-block;
-    height: 40px;
-    vertical-align: top;
-    line-height: 37px;
-    padding-left: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-}
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+  line-height: 37px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif; }
 
 .checkin span.chevron {
-    padding-left: 5px;
-}
+  padding-left: 5px; }

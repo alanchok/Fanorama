@@ -1,82 +1,61 @@
 .react-sanfona {
-    margin: 3em 3em 0 3em;
-}
+  margin: 3em 3em 0 3em; }
 
 .react-sanfona-item {
-    background-color: #f2f2f2;
-    padding: 50px 30px;
-    margin-bottom: 5px;
-    position: relative;
-}
+  background-color: #f2f2f2;
+  padding: 50px 30px;
+  margin-bottom: 5px;
+  position: relative; }
 
 .react-sanfona-item h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    color: #000;
-    font-size: 45px;
-    cursor: pointer;
-}
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  font-size: 45px;
+  cursor: pointer; }
 
 .react-sanfona-item h3:after {
-    content: '+';
-    position: absolute;
-    right: 50px;
-    top: 60px;
-    font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
-    color: #c22c08;
-    font-size: 60px;
-}
+  content: '+';
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: #c22c08;
+  font-size: 60px; }
 
 .react-sanfona-item.react-sanfona-item-expanded h3:after {
-    content: '-';
-}
+  content: '-'; }
 
 .react-sanfona-item-body p:first-child {
-    margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 .react-sanfona-item .points {
-    margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .react-sanfona-item .cta {
-    margin-top: 70px;
-}
+  margin-top: 70px; }
 
 .react-sanfona-item .points p {
-    font-weight: 600;
-    color: #000;
-    margin: 13px 0;
-}
+  font-weight: 600;
+  color: #000;
+  margin: 13px 0; }
 
 .react-sanfona-item .points .icon {
-    margin: 0 12px 0 20px;
-}
+  margin: 0 12px 0 20px; }
 
 .react-sanfona-item .icon svg path {
-    fill: #c22c08;
-}
+  fill: #c22c08; }
 
-@media only screen and (max-device-width : 544px) {
-    .react-sanfona {
-        margin: 3em 0 0 0;
-    }
-
-    .react-sanfona-item h3 {
-        font-size: 2em;
-    }
-
-    .react-sanfona-item h3:after {
-        top: 30px;
-    }
-
-    .react-sanfona-item-body p:first-child {
-        margin-top: 1rem;
-    }
-
-    .react-sanfona-item .cta {
-        margin: 20px 0 0 0;
-    }
-}
+@media only screen and (max-device-width: 544px) {
+  .react-sanfona {
+    margin: 3em 0 0 0; }
+  .react-sanfona-item h3 {
+    font-size: 2em; }
+  .react-sanfona-item h3:after {
+    top: 30px; }
+  .react-sanfona-item-body p:first-child {
+    margin-top: 1rem; }
+  .react-sanfona-item .cta {
+    margin: 20px 0 0 0; } }

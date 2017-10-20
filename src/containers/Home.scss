@@ -1,0 +1,50 @@
+@import '../_variables.scss';
+@import '../_breakpoints.scss';
+
+.home-page {
+    .our-product {
+        background: transparent url('/img/hero-product.jpg') top center no-repeat;
+        background-size: auto 100%;
+        height: 100vh;
+        max-height: 812px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        .hand {
+            display: none;
+
+            @include media-breakpoint-up(md) {
+                display: block;
+                position: absolute;
+                right: -100px;
+                height: 110vh;
+                bottom: 1px;
+                max-height: 866px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                right: 10vw;
+            }
+        }
+
+        svg {
+            fill: #fff;
+            opacity: 1;
+        }
+
+        li {
+            padding-right: 20px;
+        }
+
+        .hero-copy.inverse {
+            @include media-breakpoint-up(md) {
+                padding: 15% 10% 0 5%;
+            }
+
+            @include media-breakpoint-up(lg) {
+                padding: 15% 10% 0 20%;
+            }
+        }
+    }
+}

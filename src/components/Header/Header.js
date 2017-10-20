@@ -32,7 +32,7 @@ const Header = () => (
         </div>
         <div className='row nav'>
             <div className='col-3'>
-                <Link to="/">
+                <Link to="/home">
                     <Isvg src={Logo} className='logo' />
                 </Link>
             </div>
