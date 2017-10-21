@@ -37,7 +37,7 @@ class Home extends Component {
                         <hr />
                         <h3>Stand Out From The Crowd</h3>
                         <h4>A fan-focused company</h4>
-                        <p>Our mission is to capture every moment that matters to fans during the big event. Consectetur adipiscing elit. Vivamus molestie dui vitae velit facilisis convallis. Sed et maximus purus, vel posuere nunc. In tristique vel lacus ac dapibus. Etiam sed auctor neque. Curabitur sollicitudin tellus sed ante dapibus, vitae tincidunt eros ultrices.</p>
+                        <p>Our mission is to enhance the fan experience. We capture photos of every fan during authentic moments at events. We help fans preserve their special memories in digital galleries and work with sponsors to create exclusive keepsakes!</p>
                     </div>
                 ]} />
                 <div className='our-product'>
