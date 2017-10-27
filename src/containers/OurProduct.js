@@ -26,9 +26,10 @@ class OurProduct extends Component {
                         <div className='col-12 col-sm-5 hero-copy'>
                             <h2>Register</h2>
                             <hr/>
-                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <h3>A FAN ENGAGEMENT PLATFORM</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at condimentum mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent viverra, leo a commodo hendrerit.
+                                We provide every fan with hundreds of personal photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate and engage with fans!
+
                             </p>
                         </div>
                     </div>
