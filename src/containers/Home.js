@@ -37,7 +37,7 @@ class Home extends Component {
                         <hr />
                         <h3>DIGITAL ACTIVATIONS AT SCALE</h3>
                         <h4>Fraud Free Guarantee</h4>
-                        <p>The Fanorama platform drives engagement and insights for fans, teams and their sponsors at major events.</p>                   
+                        <p>The Fanorama platform drives engagement and insights for fans, teams and their sponsors at major events. Our analytics are 100% authentic captured from real fans.</p>                   
             </div>
                 ]} />
                 <div className='our-product'>
@@ -45,7 +45,7 @@ class Home extends Component {
                         <h2>Our Product</h2>
                         <hr />
                         <h3>A fan engagement platform</h3>
-                        <p>We provide every fan with hundreds of personal and action photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate, engage and with fans!</p>
+                        <p>We provide every fan with hundreds of personal and action photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate and engage with fans!</p>
                         <ul className='list-inline'>
                             <li className='list-inline-item'>
                                 <Isvg src={IconFavorite} />
