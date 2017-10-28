@@ -49,8 +49,8 @@ class OurProduct extends Component {
                         <p>Be your fans biggest Fan. Use the Fanorama platform to give people what they really want, bragging rights and a piece of the action.</p>
                     </div>,
                     <div className='hero-copy' key='about-us-2'>
-                        <h3>Stand Out From The Crowd</h3>
-                        <p>Our mission is to capture every moment that matters to fans during the big event. Consectetur adipiscing elit. Vivamus molestie dui vitae velit facilisis convallis. Sed et maximus purus, vel posuere nunc. In tristique vel lacus ac dapibus. Etiam sed auctor neque. Curabitur sollicitudin tellus sed ante dapibus, vitae tincidunt eros ultrices.</p>
+                        <h3>Consumer Segments of One</h3>
+                        <p>Sponsored micro-moments will help your brand, team, and venue create one to one relationships. What once seemed impossible is now within reach. </p>
                     </div>
                 ]} />
                 <Footer />
