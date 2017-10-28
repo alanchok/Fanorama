@@ -30,7 +30,7 @@ class Home extends Component {
                         <hr />
                         <h3>Stand Out From The Crowd</h3>
                         <h4>A fan-focused company</h4>
-                        <p>Our mission is to capture every moment that matters to fans during the big event. We capture photos of every fan during authentic moments at events. We help fans preserve their special memories in digital galleries and work with sponsors to create exclusive keepsakes! </p>
+                        <p>We capture photos of every fan during authentic moments at events. We help fans preserve their special memories in digital galleries and work with sponsors to create exclusive keepsakes! </p>
                     </div>,
                     <div className='hero-copy' key='about-us-2'>
                         <h2>About Us</h2>
