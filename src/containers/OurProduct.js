@@ -26,9 +26,9 @@ class OurProduct extends Component {
                         <div className='col-12 col-sm-5 hero-copy'>
                             <h2>Register</h2>
                             <hr/>
-                            <h3>A FAN ENGAGEMENT PLATFORM</h3>
+                            <h3>Put your phone away. We've Got You Covered</h3>
                             <p>
-                                We provide every fan with hundreds of personal photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate and engage with fans!
+                                Simply register with Fanorama and we’ll capture your photos during the most important highlights of the big events you attend. You’ll receive your own personalized gallery from the event.
 
                             </p>
                         </div>
