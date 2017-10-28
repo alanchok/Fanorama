@@ -35,10 +35,10 @@ class Home extends Component {
                     <div className='hero-copy' key='about-us-2'>
                         <h2>About Us</h2>
                         <hr />
-                        <h3>Stand Out From The Crowd</h3>
-                        <h4>A fan-focused company</h4>
-                        <p>Our mission is to enhance the fan experience. We capture photos of every fan during authentic moments at events. We help fans preserve their special memories in digital galleries and work with sponsors to create exclusive keepsakes!</p>
-                    </div>
+                        <h3>DIGITAL ACTIVATIONS AT SCALE</h3>
+                        <h4>Fraud Free Guarantee</h4>
+                        <p>The Fanorama platform drives engagement and insights for fans, teams and their sponsors at major events.                    
+            </div>
                 ]} />
                 <div className='our-product'>
                     <div className='hero-copy inverse'>
