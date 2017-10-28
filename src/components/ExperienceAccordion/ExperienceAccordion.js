@@ -18,12 +18,12 @@ const ExperienceAccordion = () => (
                     title={<div><h3>Fans</h3><span>Preserve the memories and share the bragging rights of their event experience.</span></div>}
                     slug='fans'>
                     <div>
-                        <p>Enhance the fan experience.</p>
+                        <p></p>
                     </div>
                     <div className='row points'>
                         <div className='col-12 col-sm-6'>
                             <Isvg src={IconFanExperience} className='icon float-left' />
-                            <p>Free digital and printed keepsakes.</p>
+                            <p>Enhance the Fan experience.</p>
                         </div>
                         <div className='col-12 col-sm-6'>
                             <Isvg src={IconPrint} className='icon float-left' />
