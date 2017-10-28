@@ -36,9 +36,9 @@ class OurProduct extends Component {
                         <div className='col-12 col-sm-6 ml-md-auto hero-copy inverse'>
                             <h2>Sponsorship Activation</h2>
                             <hr/>
-                            <h3>Digital Activation as Scale</h3>
+                            <h3>Digital Activation at Scale</h3>
                             <p>
-                              Our technology is scalable to any size venue and is capable of capturing thousands of unique images of fans at the most crucial moments during any event.
+                             Scalable to any size venue, the Fanorama platform captures thousands of unique fan images during the crucial moments during any event.
                             </p>
                         </div>
                     </div>
