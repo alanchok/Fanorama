@@ -45,7 +45,7 @@ class Home extends Component {
                         <h2>Our Product</h2>
                         <hr />
                         <h3>A fan engagement platform</h3>
-                        <p>We provide every fan with over 100 personal photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate, engage and with fans!</p>
+                        <p>We provide every fan with hundreds of personal and action photos from the big event. The Fanorama platform provides a new space for our sponsors and partners to activate, engage and with fans!</p>
                         <ul className='list-inline'>
                             <li className='list-inline-item'>
                                 <Isvg src={IconFavorite} />
@@ -83,7 +83,7 @@ class Home extends Component {
                     </div>
                     <div className='row'>
                         <div className='col cta'>
-                            <a href='/contact-us' className='btn btn-primary'>Learn More</a>
+                            <a href='/contact-us' className='btn btn-primary'>Contact Us</a>
                         </div>
                     </div>
                 </div>
