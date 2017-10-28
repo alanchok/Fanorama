@@ -27,10 +27,7 @@ class OurProduct extends Component {
                             <h2>Register</h2>
                             <hr/>
                             <h3>Put your phone away. We've Got You Covered</h3>
-                            <p>
-                                Simply register with Fanorama and we’ll capture your photos during the most important highlights of the big events you attend. You’ll receive your own personalized gallery from the event.
-
-                            </p>
+                            <p>Simply register with Fanorama and we’ll capture your photos during the most important highlights of the big events you attend. You’ll receive your own personalized gallery from the event. </p>
                         </div>
                     </div>
                 </div>
