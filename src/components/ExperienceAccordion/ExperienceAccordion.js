@@ -45,6 +45,12 @@ const ExperienceAccordion = () => (
                         <p>Win, serve, and retain loyal customers.</p>
                         <p>Personalize customer interactions with precise fan data and analytics.</p>
                     </div>
+                 </div>
+                    <div className='row cta'>
+                        <div className='col-12 text-center'>
+                            <a href='/contact-us' className='btn btn-primary'>Contact Us</a>
+                        </div>
+                    </div>
                 </AccordionItem>
                 <AccordionItem
                     title={<div><h3>Teams, Leagues, and Venues</h3><span>Forge stronger ties with fans, teams and brands and increase exposure of your events.
