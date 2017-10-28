@@ -22,9 +22,7 @@ const Footer = () => (
                 <div className='col-6 col-md-3 col-lg-2'>
                     <p><strong>CONTACT</strong></p>
                     <p>
-                        12345 Fan Street<br />
-                        Calgary, AB<br />
-                        T1A 2B3
+                        
                     </p>
                     <a href="mailto:info@fanorama.ca">info@fanorama.ca</a>
                 </div>
