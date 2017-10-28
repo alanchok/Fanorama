@@ -48,12 +48,15 @@ const ExperienceAccordion = () => (
                 
                 </AccordionItem>
                 <AccordionItem
-                    title={<div><h3>Teams, Leagues, and Venues</h3><span>Forge stronger ties with fans, teams, and brands and increase exposure of your events.
+                    title={<div><h3>Teams, Leagues, and Venues</h3><span>Forge stronger ties with fans, teams, and brands. Increase exposure of your events.
  
 </span></div>}
                     slug='teams'>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
+                        <p>A revenue generating digital activation channel.</p>
+                        <p>Find your super fans and create an integrated view of their behaviour.</p>
+                        <p>Create exclusive licensed merchandising opportunities.</p>
+                        <p>Fraud free marketing insights</p>
                     </div>
                 </AccordionItem>
             </Accordion>
