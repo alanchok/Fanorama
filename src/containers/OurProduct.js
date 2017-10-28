@@ -34,11 +34,11 @@ class OurProduct extends Component {
                 <div className='container-fluid'>
                     <div className='row product-checkin'>
                         <div className='col-12 col-sm-6 ml-md-auto hero-copy inverse'>
-                            <h2>Register</h2>
+                            <h2>Sponsorship Activation</h2>
                             <hr/>
-                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <h3>Digital Activation as Scale</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at condimentum mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent viverra, leo a commodo hendrerit.
+                              Our technology is scalable to any size venue and is capable of capturing thousands of unique images of fans at the most crucial moments during any event.
                             </p>
                         </div>
                     </div>
