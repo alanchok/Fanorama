@@ -56,7 +56,7 @@ const ExperienceAccordion = () => (
                         <p>A revenue generating digital activation channel.</p>
                         <p>Find your super fans and create an integrated view of their behaviour.</p>
                         <p>Create exclusive licensed merchandising opportunities.</p>
-                        <p>Fraud free marketing insights</p>
+                        <p>Fraud free marketing insights.</p>
                     </div>
                 </AccordionItem>
             </Accordion>
