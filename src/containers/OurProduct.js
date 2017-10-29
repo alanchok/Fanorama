@@ -17,7 +17,7 @@ class OurProduct extends Component {
             <div className="our-product-page">
                 <Header />
                 <Hero
-                    title='Our Product'
+                    title='Fanorama Platform'
                     className={['secondary']}
                 />
                 <Checkin />
@@ -45,12 +45,12 @@ class OurProduct extends Component {
                 </div>
                 <SimpleSlider children={[
                     <div className='hero-copy' key='about-us'>
-                        <h3>Obsessed with the fan experience</h3>
-                        <p>Be your fans biggest Fan. Use the Fanorama platform to give people what they really want, bragging rights and a piece of the action.</p>
+                        <h3>Consumer Segments of One</h3>
+                        <p>Sponsored micro-moments will help your brand, team, and venue create one to one relationships. What once seemed impossible is now within reach.</p>
                     </div>,
                     <div className='hero-copy' key='about-us-2'>
-                        <h3>Consumer Segments of One</h3>
-                        <p>Sponsored micro-moments will help your brand, team, and venue create one to one relationships. What once seemed impossible is now within reach. </p>
+                        <h3>Obsessed with the fan experience</h3>
+                        <p>Be your fans biggest Fan. Use the Fanorama platform to give people what they really want, bragging rights and a piece of the action. </p>
                     </div>
                 ]} />
                 <Footer />
