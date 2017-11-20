@@ -10,7 +10,7 @@ import NotFound from './containers/NotFound';
 
 ReactDOM.render(<BrowserRouter>
         <Switch>
-            <Route exact path='/home' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route exact path='/our-product' component={OurProduct} />
             <Route exact path='/contact-us' component={ContactUs} />
             <Route exact path='/contact-us/:action' component={ContactUs} />
