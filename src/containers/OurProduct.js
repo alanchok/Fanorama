@@ -26,8 +26,8 @@ class OurProduct extends Component {
                         <div className='col-12 col-sm-5 hero-copy'>
                             <h2>Register</h2>
                             <hr/>
-                            <h3>Put your phone away. We've Got You Covered</h3>
-                            <p>Simply register with Fanorama and we’ll capture you celebrating the most important moments of the big event.</p>
+                            <h3>SIT ANYWHERE. WE'VE GOT YOU COVERED</h3>
+                            <p>Simply register with Fanorama and we’ll capture your photos during the most important highlights of the big events you attend. You’ll leave with your own personalized gallery from the event.</p>
                         </div>
                     </div>
                 </div>
@@ -37,9 +37,7 @@ class OurProduct extends Component {
                             <h2>Sponsorship Activation</h2>
                             <hr/>
                             <h3>Digital Activation at Scale</h3>
-                            <p>
-                             Scalable to any size venue, the Fanorama platform captures thousands of unique fan images during the crucial moments during any event.
-                            </p>
+                            <p>Our technology is scalable to any size venue and is capable of capturing thousands of unique images of fans at the most crucial moments during any event.</p>
                         </div>
                     </div>
                 </div>
