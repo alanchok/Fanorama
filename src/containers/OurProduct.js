@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
+import Isvg from 'react-inlinesvg';
 import SimpleSlider from '../components/SimpleSlider/SimpleSlider';
 import Hero from '../components/Hero/Hero';
 import Footer from '../components/Footer/Footer';
+import IconFanExperience from '../components/Icons/icon-fan-experience.svg';
+import IconFanBehavior from '../components/Icons/icon-fan-behavior.svg';
+import IconIncreaseLifeline from '../components/Icons/icon-increase-lifeline.svg';
 import './OurProduct.css';
 
 class OurProduct extends Component {
@@ -32,14 +36,38 @@ class OurProduct extends Component {
                     </div>
                 </div>
                 <div className='container-fluid'>
-                    <div className='row product-checkin'>
-                        <div className='col-12 col-sm-6 ml-md-auto hero-copy inverse'>
+                    <div className='row justify-content-md-center product-checkin'>
+                        <div className='col-12 col-sm-10 hero-copy inverse text-center'>
                             <h2>Sponsorship Activation</h2>
                             <hr/>
                             <h3>Digital Activation at Scale</h3>
                             <p>Our technology is scalable to any size venue and is capable of capturing thousands of unique images of fans at the most crucial moments during any event.</p>
+                            <br /><br />
+                            <div className='row justify-content-md-center'>
+                                <div className='col-12 col-sm-4 icon'>
+                                    <Isvg src={IconFanExperience} />
+                                    <ul>
+                                        <li>Branded personalized galleries for every fan</li>
+                                    </ul>
+                                </div>
+                                <div className='col-12 col-sm-4 icon'>
+                                    <Isvg src={IconIncreaseLifeline} />
+                                    <ul>
+                                        <li>Fan data</li>
+                                        <li>Survey, contest & campaign platform</li>
+                                        <li>Market research & insights platform</li>
+                                    </ul>
+                                </div>
+                                <div className='col-12 col-sm-4 icon'>
+                                    <Isvg src={IconFanBehavior} />
+                                    <ul>
+                                        <li>Post event engagement opportunities</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
                 <SimpleSlider children={[
                     <div className='hero-copy' key='about-us'>
