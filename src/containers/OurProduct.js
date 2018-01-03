@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
 import Isvg from 'react-inlinesvg';
-import SimpleSlider from '../components/SimpleSlider/SimpleSlider';
 import Hero from '../components/Hero/Hero';
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer/Footer';
 import IconFanExperience from '../components/Icons/icon-fan-experience.svg';
 import IconFanBehavior from '../components/Icons/icon-fan-behavior.svg';
@@ -69,16 +69,21 @@ class OurProduct extends Component {
                     </div>
 
                 </div>
-                <SimpleSlider children={[
-                    <div className='hero-copy' key='about-us'>
-                        <h3>Consumer Segments of One</h3>
-                        <p>Sponsored micro-moments will help your brand, team, and venue create one to one relationships. What once seemed impossible is now within reach.</p>
-                    </div>,
-                    <div className='hero-copy' key='about-us-2'>
-                        <h3>Obsessed with the fan experience</h3>
-                        <p>Be your fans biggest Fan. Use the Fanorama platform to give people what they really want, bragging rights and a piece of the action. </p>
+
+                <div className='container-fluid'>
+                    <div className='row justify-content-md-center product-obsessed'>
+                        <div className='col-12 col-sm-10 hero-copy inverse text-center'>
+                            <h3>Obsessed with the<br />fan experience</h3>
+                            <p>Be your fans biggest fan. Use the Fanorama platform to give people what they really want, bragging rights and a piece of the action.</p>
+                            <br /><br />
+                            <div className='row justify-content-md-center'>
+                                <Link to='contact-us' className='btn btn-primary inverse'>Contact Us</Link>
+                            </div>
+                        </div>
                     </div>
-                ]} />
+
+                </div>
+
                 <Footer />
             </div>
         );

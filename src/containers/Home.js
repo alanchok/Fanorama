@@ -38,7 +38,7 @@ class Home extends Component {
                         <h3>DIGITAL ACTIVATIONS AT SCALE</h3>
                         <h4>Fraud Free Guarantee</h4>
                         <p>The Fanorama platform drives engagement and insights for fans, teams and their sponsors at major events. Our analytics are 100% authentic captured from real fans.</p>
-            </div>
+                    </div>
                 ]} />
                 <div className='our-product'>
                     <div className='hero-copy inverse'>

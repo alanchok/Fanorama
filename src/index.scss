@@ -26,12 +26,23 @@ a, a:hover {
     color: #fff;
     border-color: $brand-primary;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 2px;
 
     &:hover {
         background-color: #940800;
         color: #fff;
         border-color: #940800;
+    }
+
+    &.inverse {
+        background-color: #fff;
+        color: $brand-primary;
+        border-color: #fff;
+
+        &:hover {
+            background-color: #eee;
+            border-color: #eee;
+        }
     }
 }
 

@@ -41,7 +41,7 @@
 
     @include media-breakpoint-up(sm) {
         background: transparent url('/img/our-product-checkin.jpg') top center no-repeat;
-        height: 771px;
+        height: 770px;
     }
 }
 
@@ -51,11 +51,25 @@
 
     @include media-breakpoint-up(sm) {
         background: transparent url('/img/our-product-checkin.jpg') top center no-repeat;
-        height: 771px;
+        height: 770px;
+    }
+}
+
+.product-obsessed {
+    background-position: center right;
+    height: auto;
+
+    @include media-breakpoint-up(sm) {
+        background: transparent url('/img/our-product-obsessed.jpg') top center no-repeat;
+        height: 524px;
     }
 }
 
 .our-product-page {
+    footer {
+        margin: 0;
+    }
+
     .hero-copy.inverse {
         padding: 40px 15px;
 

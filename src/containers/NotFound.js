@@ -9,9 +9,11 @@ const NotFound = () => {
                 <tr>
                     <td valign={'middle'} align={'center'}>
                         <p>
-                            Coming Soon
+                            404 - Not Found
                         </p>
-                        <Isvg src={Logo} className='logo' />
+                        <a href="/">
+                            <Isvg src={Logo} className='logo' />
+                        </a>
                     </td>
                 </tr>
             </tbody>
