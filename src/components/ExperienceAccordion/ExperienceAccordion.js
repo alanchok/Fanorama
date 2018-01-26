@@ -69,7 +69,7 @@ const ExperienceAccordion = () => (
                     </div>
                 </AccordionItem>
                 <AccordionItem
-                    title={<div><h3>Teams, Leagues, and Venues</h3><span>Forge stronger ties with fans, teams, and brands. Increase exposure of your events.</span></div>}
+                    title={<div><h3>Teams and Venues</h3><span>Forge stronger ties with fans, teams, and brands. Increase exposure of your events.</span></div>}
                     slug='teams'>
                     <div className='row points'>
                         <div className='col-12 col-sm-6'>
