@@ -44,7 +44,7 @@ const ExperienceAccordion = () => (
                     </div>
                 </AccordionItem>
                 <AccordionItem
-                    title={<div><h3>Sponsors</h3><span>A meaning mobile activation that fans love.</span></div>}
+                    title={<div><h3>Sponsors</h3><span>A meaningful mobile activation that fans love.</span></div>}
                     slug='sponsors'>
                     <div>
                         <p>Increase customer lifetime value and deliver more engagement in your activations by giving fans high quality content they want</p>
