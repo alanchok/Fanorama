@@ -12,6 +12,7 @@ import IconShare from '../components/Icons/icon-share.svg';
 import IconStep1 from '../components/Icons/icon-step1.svg';
 import IconStep2 from '../components/Icons/icon-step2.svg';
 import IconStep3 from '../components/Icons/icon-step3.svg';
+import IconStep4 from '../components/Icons/icon-step4.svg';
 
 class Home extends Component {
     componentDidMount () {
@@ -57,27 +58,34 @@ class Home extends Component {
                     </div>
                     <img src='/img/hand.png' className='hand' alt={'Hand'} />
                 </div>
-                <div className='steps container-fluid'>
+                <div className='steps container-fluid features'>
                     <div className='row'>
-                        <div className='col-12 col-sm-4'>
+                        <div className='col-12 col-sm-3'>
                             <div className='icon'>
                                 <Isvg src={IconStep1} />
                             </div>
                             <h2>1. Register your seat</h2>
-                            <p>Opt in via SMS, Google or Facebook.</p>
+                            <p>Opt in via Fanorama, Google or Facebook.</p>
                         </div>
-                        <div className='col-12 col-sm-4'>
+                        <div className='col-12 col-sm-3'>
                             <div className='icon'>
                                 <Isvg src={IconStep2} />
                             </div>
                             <h2>2. Receive links to photos</h2>
                             <p>We'll send you notifications when new galleries are ready to view.</p>
                         </div>
-                        <div className='col-12 col-sm-4'>
+                        <div className='col-12 col-sm-3'>
+                            <div className='icon'>
+                                <Isvg src={IconStep4} />
+                            </div>
+                            <h2>3. Share Your Passion</h2>
+                            <p>Share the event, moment or your faves.</p>
+                        </div>
+                        <div className='col-12 col-sm-3'>
                             <div className='icon'>
                                 <Isvg src={IconStep3} />
                             </div>
-                            <h2>3. Collect Free Downloads</h2>
+                            <h2>4. Collect Free Downloads</h2>
                             <p>Curate your best pics for download and get exclusive freebies from our sponsors.</p>
                         </div>
                     </div>
