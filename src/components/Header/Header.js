@@ -13,7 +13,7 @@ const Header = () => (
             <div className='col text-right'>
                 <ul className='list-inline'>
                     <li className='list-inline-item'>
-                        <a href='http://www.facebook.com' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.facebook.com/fanoramas/' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconFacebook} />
                         </a>
                     </li>
