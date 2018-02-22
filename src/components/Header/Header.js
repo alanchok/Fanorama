@@ -18,12 +18,12 @@ const Header = () => (
                         </a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='http://www.twitter.com' target='_blank' rel='noopener noreferrer'>
+                        <a href='http://https://twitter.com/Fanoramas' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconTwitter} />
                         </a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='http://www.instagram.com' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.instagram.com/fanoramas_/' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconInstagram} />
                         </a>
                     </li>
