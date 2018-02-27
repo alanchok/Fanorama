@@ -6,6 +6,7 @@ import IconHeartOutline from '../Icons/icon-heart-outline.svg';
 import IconCustomerAcquistion from '../Icons/icon-custom-acquisition.svg';
 import IconLoyalCustomer from '../Icons/icon-loyal-customer.svg';
 import IconFanBehavior from '../Icons/icon-fan-behavior.svg';
+import IconShare from '../Icons/icon-step4.svg';
 import IconDigitalActivation from '../Icons/icon-digitital-activation.svg';
 import IconMerchandising from '../Icons/icon-merchandising.svg';
 import IconInsights from '../Icons/icon-insights.svg';
@@ -35,6 +36,10 @@ const ExperienceAccordion = () => (
                         <div className='col-12 col-sm-6'>
                             <Isvg src={IconPrint} className='icon float-left' />
                             <p>Free digital and printed keepsakes.</p>
+                        </div>
+                        <div className='col-12 col-sm-6'>
+                            <Isvg src={IconShare} className='icon float-left' />
+                            <p>Share the event, a moment, or a picture.</p>
                         </div>
                     </div>
                     <div className='row cta'>
