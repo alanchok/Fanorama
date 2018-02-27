@@ -12,7 +12,7 @@ const Footer = () => (
                     <Isvg src={Logo} className='logo' />
                 </div>
                 <div className='col-6 col-md-3 col-lg-2'>
-                    <p><strong>FANORAMA</strong></p>
+                    <p><strong>FANORAMAS</strong></p>
                     <p>
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
@@ -28,7 +28,7 @@ const Footer = () => (
                 </div>
             </div>
             <hr />
-            &copy; 2017 Fanorama All Rights Reserved.
+            &copy; 2017 Fanorama Social Media Corp. All Rights Reserved.
         </div>
     </footer>
 );
