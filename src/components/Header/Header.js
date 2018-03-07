@@ -18,7 +18,7 @@ const Header = () => (
                         </a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='http://https://twitter.com/Fanoramas' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://twitter.com/Fanoramas' target='_blank' rel='noopener noreferrer'>
                             <Isvg src={IconTwitter} />
                         </a>
                     </li>
