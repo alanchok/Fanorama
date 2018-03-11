@@ -16,13 +16,14 @@ const Footer = () => (
                     <p>
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
-                        <Link to={'/contact-us'}>Contact Us</Link>
+                        <Link to={'/contact-us'}>Contact Us</Link><br />
+                        <Link to={'/privacy-policy'}>Privacy Policy</Link>
                     </p>
                 </div>
                 <div className='col-6 col-md-3 col-lg-2'>
                     <p><strong>CONTACT</strong></p>
                     <p>
-                        
+
                     </p>
                     <a href="mailto:info@fanorama.ca">info@fanorama.ca</a>
                 </div>
