@@ -16,7 +16,7 @@ const Footer = () => (
                     <p>
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
-                        <a href='#' class='drift-open-chat'>Contact Us</a><br />
+                        <a href='/contact-us' class='drift-open-chat' onClick="return false;">Contact Us</a><br />
                         <Link to={'/privacy-policy'}>Privacy Policy</Link>
                     </p>
                 </div>
