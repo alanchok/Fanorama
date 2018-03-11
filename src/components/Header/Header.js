@@ -42,10 +42,10 @@ const Header = () => (
                         <Link to='/our-product'>Our Product</Link>
                     </li>
                     <li className='list-inline-item'>
-                        <Link to='/contact-us'>Contact Us</Link>
+                        <a href='#' class='drift-open-chat'>Contact Us</a>
                     </li>
                     <li className='list-inline-item'>
-                        <Link to='/contact-us/login' className='btn btn-primary'>Log In</Link>
+                        <a href='#' class='drift-open-chat btn btn-primary'>Log In</a>
                     </li>
                 </ul>
             </div>

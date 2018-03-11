@@ -14,6 +14,7 @@ export default class PrivacyPolicy extends Component {
     componentWillMount() {
         request('https://www.iubenda.com/api/privacy-policy/10691543/no-markup', (error, response, body) => {
             this.setState({ content: JSON.parse(body).content, isWorking: false });
+            window.scrollTo(0, 0);
         });
     }
 

@@ -16,7 +16,7 @@ const Footer = () => (
                     <p>
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
-                        <Link to={'/contact-us'}>Contact Us</Link><br />
+                        <a href='#' class='drift-open-chat'>Contact Us</a><br />
                         <Link to={'/privacy-policy'}>Privacy Policy</Link>
                     </p>
                 </div>
@@ -25,7 +25,7 @@ const Footer = () => (
                     <p>
 
                     </p>
-                    <a href="mailto:info@fanorama.ca">info@fanorama.ca</a>
+                    <a href="mailto:info@fanoramas.com">info@fanoramas.com</a>
                 </div>
             </div>
             <hr />
