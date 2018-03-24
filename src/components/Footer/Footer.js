@@ -25,7 +25,7 @@ const Footer = () => (
                     <p>
 
                     </p>
-                    <a href="mailto:info@fanoramas.com">info@fanoramas.com</a>
+                    <a href="mailto:info@fanoramas.com">contact@fanoramas.com</a>
                 </div>
             </div>
             <hr />
