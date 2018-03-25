@@ -3,7 +3,6 @@ import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
 import Isvg from 'react-inlinesvg';
 import Hero from '../components/Hero/Hero';
-import { Link } from 'react-router-dom';
 import Footer from '../components/Footer/Footer';
 import IconFanExperience from '../components/Icons/icon-fan-experience.svg';
 import IconFanBehavior from '../components/Icons/icon-fan-behavior.svg';
