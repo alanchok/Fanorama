@@ -42,10 +42,10 @@ const Header = () => (
                         <Link to='/our-product'>Our Product</Link>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='/contact-us' onClick="return false;" class='drift-open-chat'>Contact Us</a>
+                        <a href='/' onClick={() => {}} className='drift-open-chat'>Contact Us</a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='/contact-us' onClick="return false;" class='drift-open-chat btn btn-primary'>Log In</a>
+                        <a href='/' onClick={() => {}} className='drift-open-chat btn btn-primary'>Log In</a>
                     </li>
                 </ul>
             </div>

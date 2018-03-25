@@ -89,11 +89,7 @@ class Home extends Component {
                             <p>Curate your best pics for download and get exclusive freebies from our sponsors.</p>
                         </div>
                     </div>
-                    <div className='row'>
-                        <div className='col cta'>
-                            <a href='/contact-us' className='btn btn-primary'>Contact Us</a>
-                        </div>
-                    </div>
+                    <p>&nbsp;</p>
                 </div>
                 <ExperienceAccordion />
                 <Footer />

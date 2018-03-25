@@ -16,7 +16,6 @@ class OurProduct extends Component {
     }
 
     render() {
-        console.log(this.props.params);
         return (
             <div className="our-product-page">
                 <Header />
@@ -75,10 +74,6 @@ class OurProduct extends Component {
                         <div className='col-12 col-sm-10 hero-copy inverse text-center'>
                             <h3>Obsessed with the<br />fan experience</h3>
                             <p>Be your fans biggest fan. Use the Fanoramas platform to give people what they really want, bragging rights and a piece of the action.</p>
-                            <br /><br />
-                            <div className='row justify-content-md-center'>
-                                <Link to='contact-us' className='btn btn-primary inverse'>Contact Us</Link>
-                            </div>
                         </div>
                     </div>
 

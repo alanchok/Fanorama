@@ -42,11 +42,6 @@ const ExperienceAccordion = () => (
                             <p>Share the event, a moment, or a picture.</p>
                         </div>
                     </div>
-                    <div className='row cta'>
-                        <div className='col-12 text-center'>
-                            <a href='/contact-us' className='btn btn-primary'>Contact Us</a>
-                        </div>
-                    </div>
                 </AccordionItem>
                 <AccordionItem
                     title={<div><h3>Sponsors</h3><span>A meaningful mobile activation that fans love.</span></div>}

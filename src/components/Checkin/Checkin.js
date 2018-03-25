@@ -4,7 +4,7 @@ import Isvg from 'react-inlinesvg';
 import './Checkin.css';
 
 const Checkin = () => (
-    <a className='checkin text-center' href='/contact-us/checkin'>
+    <a className='checkin text-center drift-open-chat' href='/' onClick={() => {}}>
         <Isvg src={IconFanoramas} />
         <span>Check-in Now </span>
         <span className='chevron'>&gt;</span>
