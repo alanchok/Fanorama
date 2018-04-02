@@ -16,7 +16,7 @@ const Footer = () => (
                     <p>
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
-                        <a href='/' onClick={() => {}} className='drift-open-chat'>Contact Us</a><br />
+                        <a href='/' onClick={($event) => { $event.preventDefault(); window.drift.api.sidebar.open(); }}>Contact Us</a><br />
                         <Link to={'/privacy-policy'}>Privacy Policy</Link>
                     </p>
                 </div>
