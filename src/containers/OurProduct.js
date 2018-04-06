@@ -41,7 +41,7 @@ class OurProduct extends Component {
                             <h3>Digital Activation at Scale</h3>
                             <p>Our technology is scalable to any size venue and is capable of capturing thousands of unique images of fans at the most crucial moments during any event.</p>
                             <br /><br />
-                            <div className='row justify-content-md-center'>
+                            <div className='row justify-content-md-center points'>
                                 <div className='col-12 col-sm-4 icon'>
                                     <Isvg src={IconFanExperience} />
                                     <ul>
