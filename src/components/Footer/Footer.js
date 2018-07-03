@@ -29,7 +29,7 @@ const Footer = () => (
                 </div>
             </div>
             <hr />
-            &copy; 2017 Fanoramas Social Media Corp. All Rights Reserved.
+            &copy; {(new Date()).getFullYear()} Fanoramas Social Media Corp. All Rights Reserved.
         </div>
     </footer>
 );
