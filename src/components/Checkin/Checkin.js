@@ -4,8 +4,7 @@ import Isvg from 'react-inlinesvg';
 import './Checkin.css';
 
 const Checkin = () => (
-    <a className='checkin text-center' href='/'
-       onClick={($event) => { $event.preventDefault(); window.drift.api.sidebar.open(); }}>
+    <a className='checkin text-center' href='https://app.fan.xyz'>
         <Isvg src={IconFanoramas} />
         <span>Check-in Now </span>
         <span className='chevron'>&gt;</span>

@@ -45,7 +45,7 @@ const Header = () => (
                         <a href='/' onClick={($event) => { $event.preventDefault(); window.drift.api.sidebar.open(); }}>Contact Us</a>
                     </li>
                     <li className='list-inline-item'>
-                        <a href='/' onClick={($event) => { $event.preventDefault(); window.drift.api.sidebar.open(); }} className='btn btn-primary'>Log In</a>
+                        <a href='https://app.fan.xyz' className='btn btn-primary'>Log In</a>
                     </li>
                 </ul>
             </div>
