@@ -8,6 +8,7 @@ import OurProduct from './containers/OurProduct';
 import ContactUs from './containers/ContactUs';
 import NotFound from './containers/NotFound';
 import PrivacyPolicy from './containers/PrivacyPolicy';
+import CookiePolicy from './containers/CookiePolicy';
 
 ReactDOM.render(<BrowserRouter>
         <Switch>
@@ -16,6 +17,7 @@ ReactDOM.render(<BrowserRouter>
             <Route exact path='/contact-us' component={ContactUs} />
             <Route exact path='/contact-us/:action' component={ContactUs} />
             <Route exact path='/privacy-policy' component={PrivacyPolicy} />
+            <Route exact path='/cookie-policy' component={CookiePolicy} />
             <Route path='*' component={NotFound} />
         </Switch>
     </BrowserRouter>, document.getElementById('root'));

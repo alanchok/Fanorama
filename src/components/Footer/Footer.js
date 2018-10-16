@@ -17,7 +17,8 @@ const Footer = () => (
                         <Link to={'/'}>Home</Link><br />
                         <Link to={'/our-product'}>Our Product</Link><br />
                         <a href='/' onClick={($event) => { $event.preventDefault(); window.drift.api.sidebar.open(); }}>Contact Us</a><br />
-                        <Link to={'/privacy-policy'}>Privacy Policy</Link>
+                        <Link to={'/privacy-policy'}>Privacy Policy</Link><br />
+                        <Link to={'/cookie-policy'}>Cookie Policy</Link>
                     </p>
                 </div>
                 <div className='col-6 col-md-3 col-lg-2'>
