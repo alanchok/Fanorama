@@ -2,9 +2,6 @@
   "name": "fanorama-website",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "6"
-  },
   "dependencies": {
     "es6-promise": "^4.1.1",
     "isomorphic-fetch": "^2.2.1",
