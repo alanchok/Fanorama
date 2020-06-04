@@ -1,7 +1,7 @@
 import React from 'react';
 import IconFanoramas from './icon-fanoramas.svg';
 import Isvg from 'react-inlinesvg';
-import './Checkin.css';
+import './Checkin.scss';
 
 const Checkin = () => (
     <a className='checkin text-center' href='https://app.fan.xyz'>

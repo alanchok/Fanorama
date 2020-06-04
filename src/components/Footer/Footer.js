@@ -2,7 +2,7 @@ import React from 'react';
 import Isvg from 'react-inlinesvg';
 import { Link } from 'react-router-dom';
 import Logo from '../Icons/logo-monochrome.svg';
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => (
     <footer>

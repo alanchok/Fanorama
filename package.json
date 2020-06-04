@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "es6-promise": "^4.1.1",
+    "es6-promise": "^4.2.8",
     "isomorphic-fetch": "^2.2.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-inlinesvg": "^0.6.2",
-    "react-router-dom": "^4.2.2",
-    "react-sanfona": "^0.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-sanfona": "^0.4.3",
     "react-scripts": "1.0.14",
     "react-slick": "^0.15.4",
-    "request": "^2.83.0"
+    "request": "^2.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,9 +26,9 @@
     "deploy": "npm run build && npm run sync && npm run invalidate"
   },
   "devDependencies": {
-    "eslint-plugin-flowtype": "^2.37.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-react": "^7.20.0"
   }
 }

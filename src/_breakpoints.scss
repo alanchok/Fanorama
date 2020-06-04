@@ -1,10 +1,10 @@
 // Breakpoint viewport sizes and media queries.
 //
-// Breakpoints are defined as a map of (name: minimum width), order from small to large:
+// Breakpoint are defined as a map of (name: minimum width), order from small to large:
 //
 //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 //
-// The map defined in the `$grid-breakpoints` global variable is used as the `$breakpoints` argument by default.
+// The map defined in the `$grid-breakpoint` global variable is used as the `$breakpoint` argument by default.
 
 // Name of the next breakpoint, or null for the last breakpoint.
 //
@@ -96,7 +96,7 @@
   }
 }
 
-// Media between the breakpoint's minimum and maximum widths.
+// Media between the breakpoint minimum and maximum widths.
 // No minimum for the smallest breakpoint, and no maximum for the largest one.
 // Makes the @content apply only to the given breakpoint, not viewports any wider or narrower.
 @mixin media-breakpoint-only($name, $breakpoints: $grid-breakpoints) {

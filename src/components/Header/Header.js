@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import Isvg from 'react-inlinesvg';
 import { Link } from 'react-router-dom';
 import IconFacebook from '../Icons/icon-facebook.svg';

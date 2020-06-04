@@ -11,7 +11,7 @@ import IconDigitalActivation from '../Icons/icon-digitital-activation.svg';
 import IconMerchandising from '../Icons/icon-merchandising.svg';
 import IconInsights from '../Icons/icon-insights.svg';
 import { Accordion, AccordionItem } from 'react-sanfona';
-import './ExperienceAccordion.css';
+import './ExperienceAccordion.scss';
 
 const ExperienceAccordion = () => (
     <div className='accordion container'>

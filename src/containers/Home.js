@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Isvg from 'react-inlinesvg';
-import './Home.css';
+import './Home.scss';
 import Header from '../components/Header/Header';
 import Checkin from '../components/Checkin/Checkin';
 import SimpleSlider from '../components/SimpleSlider/SimpleSlider';
@@ -25,6 +25,8 @@ class Home extends Component {
                 <Header />
                 <Hero title='Show your game Face' />
                 <Checkin />
+                <h4>Tag</h4>
+                <h4>Welcome</h4>
                 <SimpleSlider children={[
                     <div className='hero-copy' key='about-us'>
                         <h2>About Us</h2>
