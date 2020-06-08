@@ -22,12 +22,12 @@ class Home extends Component {
     render() {
         return (
             <div className="home-page">
-                <Header />
-                <Hero title='Show your game Face' />
+                <Header />  
+                <Hero title='Show your game Face' />    // hero, header is components
                 <Checkin />
                 <h4>Tag</h4>
                 <h4>Welcome</h4>
-                <SimpleSlider children={[
+                <SimpleSlider children={[  //prop is children
                     <div className='hero-copy' key='about-us'>
                         <h2>About Us</h2>
                         <hr />
