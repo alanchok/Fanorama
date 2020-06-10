@@ -1,7 +1,14 @@
 {
-    "extends": "react-app",
-    "globals": {
-        "Promise": true,
-        "jQuery": true
-    }
+    "extends": [
+        "eslint:recommended", 
+        "plugin:react/recommended"
+    ]
+    
+    //"globals": {
+    //    "Promise": true,
+    //    "jQuery": true
+    
+
+    
 }
+

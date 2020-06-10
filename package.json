@@ -26,6 +26,7 @@
     "deploy": "npm run build && npm run sync && npm run invalidate"
   },
   "devDependencies": {
+    "eslint": "^7.2.0",
     "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",

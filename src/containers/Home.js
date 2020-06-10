@@ -25,9 +25,7 @@ class Home extends Component {
                 <Header />  
                 <Hero title='Show your game Face' />    // hero, header is components
                 <Checkin />
-                <h4>Tag</h4>
-                <h4>Welcome</h4>
-                <SimpleSlider children={[  //prop is children
+                <SimpleSlider children={[ 
                     <div className='hero-copy' key='about-us'>
                         <h2>About Us</h2>
                         <hr />

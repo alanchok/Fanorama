@@ -21,7 +21,7 @@
 
 // Minimum breakpoint width. Null for the smallest (first) breakpoint.
 //
-//    >> breakpoint-min(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))
+//    >>breakpoint-min(sm, (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px))
 //    576px
 @function breakpoint-min($name, $breakpoints: $grid-breakpoints) {
   $min: map-get($breakpoints, $name);
@@ -76,7 +76,7 @@
 }
 
 // Media that spans multiple breakpoint widths.
-// Makes the @content apply between the min and max breakpoints
+// Makes the @content apply between the min and max breakpoint
 @mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
   $min: breakpoint-min($lower, $breakpoints);
   $max: breakpoint-max($upper, $breakpoints);
